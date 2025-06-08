@@ -8,19 +8,19 @@ const projects = [
     title: 'Favourite — Branding + eCommerce Case Study',
     description: 'A Gen Z-powered brand meets product strategy.',
     image: img1,
-    url:"/work/favourite-branding-+ecommerce-case-study"
+    url:"/work/favourite-branding-+ecommerce-case-study",
   },
   {
     title: 'Work I Did for Ajebsanty (2017 – 2024)',
     description: 'Ten milestone projects that shaped the brand from 2017 – 2024',
     image: img2,
-    url:"/work/work-i-did-for-ajebsanty"
+    url:"/work/work-i-did-for-ajebsanty",
   },
   {
     title: 'Ai Agent - TailorAI',
     description: 'Designing a universal AI-agent pattern through the lens of a Lagos tailor',
     image: img3,
-    url:"/work/ai-agent-tailor-ai"
+    url:"/work/ai-agent-tailor-ai",
   },
 ];
 
