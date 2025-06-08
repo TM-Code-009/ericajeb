@@ -26,7 +26,7 @@ const AboutMe: React.FC = () => {
           <div className="flex-1 text-center lg:text-left">
             <h3 className="text-2xl sm:text-3xl font-semibold mb-6 leading-snug">
               Think of me as a maker who’s always <br className="hidden sm:inline" />
-              followed <span className="italic font-medium">Desire Paths</span>—those natural<br className="hidden sm:inline" />
+              followed <span className="italic font-medium">Desire Paths</span>—those natural <br className="hidden sm:inline" />
               routes people create when they just do <br className="hidden sm:inline" />
               what feels right.
             </h3>
@@ -48,7 +48,7 @@ const AboutMe: React.FC = () => {
                                   </span> View More
               </a>
               <a
-                href="#"
+                href="https://wa.link/qksx5g"
                 className="h-[40px] bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-md flex items-center gap-2"
               >
                <img src={icon} alt="Check Chat Icon" className="w-10 mt-1 h-10 object-contain " /> Let’s Connect

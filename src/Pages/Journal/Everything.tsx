@@ -6,7 +6,7 @@ const Everything = () => {
     <section className="bg-black text-white px-4 sm:px-6 md:px-8 py-16 min-h-screen">
       <div className="max-w-3xl mx-auto">
         <p className="text-sm text-gray-400  mt-20">
-          Home / Journal / <span className="font-semibold text-white">Everything is as it should be</span>
+          <a href="/">Home</a> / <a href="/Journal">Journal</a> / <span className="font-semibold text-white">Everything is as it should be</span>
         </p>
 
         <h1 className="text-3xl sm:text-4xl font-bold mt-4 md:mt-20">Everything is as it should be</h1>

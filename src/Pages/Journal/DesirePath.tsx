@@ -6,7 +6,7 @@ const DesirePath=() => {
     <section className="bg-black text-white px-4 sm:px-6 md:px-8 py-16">
       <div className="max-w-3xl mx-auto">
         <p className="text-sm mb-2 mt-20 ">
-          Home / Journal /{" "}
+          <a href="/">Home</a> / <a href="/Journal">Journal</a> /{" "}
           <span className="font-semibold text-white">
           Desire Paths in Product Design
           </span>

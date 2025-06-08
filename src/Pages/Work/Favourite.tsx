@@ -15,7 +15,7 @@ const Favourite = () => {
     <section className="bg-black text-white px-4 sm:px-6 md:px-8 py-16 min-h-screen">
       <div className="max-w-4xl mx-auto">
         <p className="text-sm text-gray-400 md:mb-10 mt-20">
-          Home / Work / <span className="font-semibold text-white">Favourite</span>
+        <a href="/">Home</a> / <a href="/work">Work</a> / <span className="font-semibold text-white">Favourite</span>
         </p>
 
         <h1 className="text-3xl sm:text-4xl font-bold">Favourite — Branding + eCommerce Case Study</h1>
@@ -210,10 +210,12 @@ const Favourite = () => {
             <p  className="font-bold" >Thinking about building a buzz-worthy brand like Favourite Closet?</p>
 
             <div className="flex justify-center lg:justify-start gap-4">
-            <button className="flex h-[40px] items-center bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
-              <img src={icon} alt="Check Chat Icon" className="w-10 mt-1 h-10 object-contain" />
+            <a href="https://wa.link/qksx5g">
+              <button className="flex h-[40px] items-center bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+              <img src={icon} alt="Check Chat Icon" className="w-10 mt-1 h-10 objsect-contain" />
               Let's Connect
             </button>
+              </a>
             <a
                 href="/resume.pdf"
                 download

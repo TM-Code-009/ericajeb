@@ -16,7 +16,7 @@ const Ajebsenty = () => {
     <section className="bg-black text-white px-4 sm:px-6 md:px-8 py-16 min-h-screen">
       <div className="max-w-4xl mx-auto">
         <p className="text-sm text-gray-400 mb-2 mt-20 ">
-          Home / Work / <span className="font-semibold text-white">TailorAI</span>
+          <a href="/">Home</a> / <a href="/work">Work</a> / <span className="font-semibold text-white">TailorAI</span>
         </p>
 
         <h1 className="text-3xl sm:text-4xl font-bold mt-4 md:mt-20 ">Work I Did for Ajebsanty (2017 – 2024)</h1>
@@ -218,10 +218,12 @@ The experience sharpened my backstage logistics skills—fittings, quick changes
             <p  className="font-bold" >Ready to craft a brand journey this rich?</p>
 
             <div className="flex justify-center lg:justify-start gap-4">
-            <button className="flex h-[40px] items-center bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+              <a href="https://wa.link/qksx5g">
+              <button className="flex h-[40px] items-center bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
               <img src={icon} alt="Check Chat Icon" className="w-10 mt-1 h-10 object-contain" />
               Let's Connect
             </button>
+              </a>
             <a
                 href="/resume.pdf"
                 download

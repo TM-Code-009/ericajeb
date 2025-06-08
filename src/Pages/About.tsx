@@ -9,9 +9,9 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 const About = () => {
   return (
     <section className="w-full bg-[#0d0d0d] text-white px-6 py-16">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto  mt-20 ">
         {/* Header */}
-        <p className="text-sm text-gray-400 mb-2">Home / About Me</p>
+        <p className="text-sm text-gray-400 mb-2"><a href="/">Home</a> / About Me</p>
         <h2 className="text-3xl font-bold mb-8">About Me</h2>
 
         {/* Main Section */}
@@ -32,7 +32,7 @@ const About = () => {
 
             <p className="text-gray-300 mb-4">
               From sketching T-shirts on a borrowed phone in secondary school,
-              to apprenticing in a bustling Aba tailoring shop, to studying
+              to apprenticing in a bustling Ajegunle tailoring shop, to studying
               Structural Engineering and falling head-first into UX/UI, I’ve
               chased whatever tugged at my curiosity—and turned it into craft.
             </p>
@@ -66,10 +66,13 @@ const About = () => {
 
             {/* Buttons */}
             <div className="flex gap-4 mt-6">
-            <button className="flex items-center bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+              <a href="https://wa.link/qksx5g">
+              <button className="flex items-center bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
               <img src={icon} alt="Check Chat Icon" className="w-10 mt-1 h-10 object-contain" />
               Let's Connect
             </button>
+              </a>
+            
               <a href="/resume.pdf" className="flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition" download>
             
                 <FaFolder className="text-[#1976D2]" />

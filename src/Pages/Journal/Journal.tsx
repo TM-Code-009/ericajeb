@@ -38,9 +38,9 @@ const entries: JournalEntry[] = [
 const Journal= () => {
   return (
     <section className="bg-black text-white px-4 sm:px-6 md:px-8 py-16 min-h-screen">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto mt-20 ">
         <p className="text-sm">
-          Home/<span className="font-semibold">Journal</span>
+          <a href="/">Home</a>/<span className="font-semibold">Journal</span>
         </p>
         <h1 className="text-3xl sm:text-4xl font-bold mt-4">Journal</h1>
         <p className="mt-2 text-gray-300 text-sm sm:text-base">
